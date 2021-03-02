@@ -1,0 +1,128 @@
+
+*{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  outline: transparent;
+}
+
+
+.masthead {
+    height: 50vh;
+    min-height: 500px;
+    background: linear-gradient(to left,rgba(24, 37, 27, 0.7),rgba(24, 37, 27, 0.7)), url('/img/masthead.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:$first;
+  }
+
+.nav{
+  background-color:$first;
+}
+
+.logo{
+  width: 40px;
+  height: 45px;
+}
+
+.nav-link{
+  color: $third !important;
+}
+
+.navbar-brand{
+  color: $third !important;
+}
+
+.foot, .foot2{
+  background-color:$third;
+  color:$first
+}
+
+.dropdown-menu{
+  background-color:$third;
+}
+
+.text-first{
+  color:$first !important;
+}
+
+.text-second{
+  color: $third!important;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  color: #16181b;
+  text-decoration: none;
+  background-color: transparent !important;
+}
+
+.img-home{
+  width: 60%;
+  
+}
+
+body{
+  background-color:$first;
+}
+
+.border-cstm{
+  border-color: $third !important;
+}
+.card-bg{
+  background-color: $third !important;
+  color: $first !important;
+}
+.social{
+  color: $third !important;;
+}
+.img-admin{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.button{
+  background-color:  transparent !important;
+  color: $third;
+}
+.msg{
+  background-color: $third !important;
+  color: $first !important;
+}
+
+.bg-third{
+  background-color: $third !important;
+}
+
+
+.icona{
+  color:$third !important;
+}
+.admin-log, .admin-top , .button-edit{
+  background-color: $third !important;
+  color: $first !important;
+}
+.forgot{
+  color: $first !important;
+}
+.button-submit{
+  color: $third !important;
+  background-color: $first !important;
+}
+
+.img-cardSize{
+  width: 100%!important;
+  height: 200px!important;
+  object-fit: contain;
+}
+
+.img-all-size{
+  width: 100%!important;
+  height: 400px!important;
+  object-fit: contain;
+}
+
+.rotate-img{
+  opacity: 0.8;
+  transform: rotate(-17deg);
+}
